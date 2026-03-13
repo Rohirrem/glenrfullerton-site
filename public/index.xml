@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Glen Fullerton</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Glen Fullerton</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Enterprise PMO That Leadership Actually Uses</title>
+      <link>http://localhost:1313/articles/enterprise-pmo-design/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/enterprise-pmo-design/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will explore how to design enterprise PMO structures that improve governance, visibility, and executive decision-making without creating unnecessary bureaucracy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Hidden Risk in Azure DevOps Implementations</title>
+      <link>http://localhost:1313/articles/azure-devops-governance/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/azure-devops-governance/</guid>
+      <description>&lt;h2 id=&#34;executive-context&#34;&gt;Executive Context&lt;/h2&gt;
+&lt;p&gt;Over the past several years, Azure DevOps has become one of the most widely adopted delivery platforms in enterprise IT organizations.&lt;/p&gt;
+&lt;p&gt;It promises integrated planning, development tracking, and operational visibility across complex engineering environments. Yet in many organizations, the introduction of Azure DevOps does not actually improve delivery performance.&lt;/p&gt;
+&lt;p&gt;Instead, leadership teams often discover that they have &lt;strong&gt;more data, but less clarity.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The issue is rarely the tool itself.&lt;br&gt;
+The issue is that organizations implement Azure DevOps as a &lt;strong&gt;technology platform rather than a governed delivery system.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Missing Layer in Most Digital Transformation Programs</title>
+      <link>http://localhost:1313/articles/digital-transformation-governance/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/digital-transformation-governance/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will focus on the governance and delivery visibility layer that is often missing from digital transformation efforts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Delivery Systems Matter More Than Methodology</title>
+      <link>http://localhost:1313/articles/delivery-systems-vs-methodology/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/delivery-systems-vs-methodology/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will explain why delivery discipline, reporting structures, and operational visibility matter more than debates over methodology labels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Infrastructure Modernization Programs Fail</title>
+      <link>http://localhost:1313/articles/infrastructure-modernization-risk/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/infrastructure-modernization-risk/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will look at the most common governance, sequencing, and stakeholder alignment issues that cause infrastructure modernization programs to struggle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;about-glen-fullerton&#34;&gt;About Glen Fullerton&lt;/h2&gt;
+&lt;p&gt;I am an enterprise program and PMO leader with more than 30 years of experience helping organizations turn strategy into reliable execution.&lt;/p&gt;
+&lt;p&gt;My work focuses on three critical areas of enterprise delivery success.&lt;/p&gt;
+&lt;h3 id=&#34;enterprise-pmo-development&#34;&gt;Enterprise PMO Development&lt;/h3&gt;
+&lt;p&gt;Designing governance frameworks and portfolio management structures that provide leadership with visibility into complex initiatives while enabling disciplined decision making.&lt;/p&gt;
+&lt;h3 id=&#34;enterprise-program-leadership&#34;&gt;Enterprise Program Leadership&lt;/h3&gt;
+&lt;p&gt;Leading large cross-functional initiatives across IT infrastructure, application development, supply chain operations, and digital transformation environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Azure DevOps Governance and Enterprise Delivery Visibility</title>
+      <link>http://localhost:1313/portfolio/delivery-systems/azure-devops-governance/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/delivery-systems/azure-devops-governance/</guid>
+      <description>&lt;h2 id=&#34;organizational-context&#34;&gt;Organizational Context&lt;/h2&gt;
+&lt;p&gt;A large public sector technology organization was expanding its use of Azure DevOps as the primary platform for managing work across both application development and infrastructure teams.&lt;/p&gt;
+&lt;p&gt;Although Azure DevOps provided powerful capabilities for backlog management, sprint planning, and work tracking, implementation practices varied widely across teams. Each group structured their boards, work items, and reporting differently, which made it difficult for leadership to understand delivery performance across the organization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;Thank you for visiting my site.&lt;/p&gt;
+&lt;p&gt;If you would like to discuss enterprise program leadership, PMO governance, or portfolio transformation initiatives, please feel free to reach out.&lt;/p&gt;
+&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:glen@glenrfullerton.org&#34;&gt;glen@glenrfullerton.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;linkedin&#34;&gt;LinkedIn&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://linkedin.com/in/glenrfullerton&#34;&gt;https://linkedin.com/in/glenrfullerton&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;website&#34;&gt;Website&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://glenrfullerton.org&#34;&gt;https://glenrfullerton.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am always open to conversations regarding enterprise program leadership, PMO development, and transformation initiatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Establishing an Enterprise PMO for Portfolio Governance</title>
+      <link>http://localhost:1313/portfolio/governance/enterprise-pmo-standup/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/governance/enterprise-pmo-standup/</guid>
+      <description>&lt;h2 id=&#34;organizational-context&#34;&gt;Organizational Context&lt;/h2&gt;
+&lt;p&gt;A large aerospace manufacturing organization operated numerous cross-functional initiatives across engineering, supply chain, manufacturing, and customer support. These initiatives were critical to operational performance and long-term competitiveness, but delivery practices were largely decentralized across business units.&lt;/p&gt;
+&lt;p&gt;Projects were often managed using different tools, methods, and reporting structures, which made it difficult for leadership to understand overall portfolio performance or manage interdependencies between initiatives.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;strategic-challenge&#34;&gt;Strategic Challenge&lt;/h2&gt;
+&lt;p&gt;Leadership lacked a single, reliable view of enterprise initiatives and their associated risks, dependencies, and resource demands.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infrastructure Modernization and Enterprise Transformation Programs</title>
+      <link>http://localhost:1313/portfolio/transformation-programs/infrastructure-modernization/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/transformation-programs/infrastructure-modernization/</guid>
+      <description>&lt;h2 id=&#34;organizational-context&#34;&gt;Organizational Context&lt;/h2&gt;
+&lt;p&gt;Large organizations often operate infrastructure environments that have evolved over many years through incremental growth, urgent operational demands, and changing technology standards. Over time, this creates complexity across platforms, support models, governance processes, and delivery coordination.&lt;/p&gt;
+&lt;p&gt;In these environments, modernization is rarely a single technical upgrade. It is typically a multi-workstream transformation involving infrastructure, applications, security, operations, vendors, and leadership stakeholders.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;strategic-challenge&#34;&gt;Strategic Challenge&lt;/h2&gt;
+&lt;p&gt;Leadership needed to modernize critical infrastructure environments while maintaining operational continuity and managing risk across multiple teams and dependencies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PMO Leadership Approach</title>
+      <link>http://localhost:1313/leadership-approach/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/leadership-approach/</guid>
+      <description>&lt;h2 id=&#34;building-high-performing-pmos&#34;&gt;Building High-Performing PMOs&lt;/h2&gt;
+&lt;p&gt;Over the course of my career I have observed that many PMOs struggle not because of tools, but because of governance and organizational alignment.&lt;/p&gt;
+&lt;h3 id=&#34;governance-before-tools&#34;&gt;Governance Before Tools&lt;/h3&gt;
+&lt;p&gt;Tools such as Azure DevOps or Jira can support delivery, but without governance frameworks and portfolio discipline they rarely produce meaningful improvements.&lt;/p&gt;
+&lt;h3 id=&#34;portfolio-visibility&#34;&gt;Portfolio Visibility&lt;/h3&gt;
+&lt;p&gt;Leadership teams must be able to understand demand, capacity, and risk across the organization in order to make informed decisions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI in PMO Governance: From Reporting Tool to Strategic Control System</title>
+      <link>http://localhost:1313/articles/ai-in-pmo-governance/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/ai-in-pmo-governance/</guid>
+      <description>Artificial Intelligence is rapidly reshaping how PMOs provide governance, visibility, and decision support. When applied correctly, AI allows PMOs to move beyond reporting and become strategic control systems for executive decision-making.</description>
+    </item>
+    <item>
+      <title>Why Most PMOs Fail at Portfolio Visibility</title>
+      <link>http://localhost:1313/articles/pmo-portfolio-visibility/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/pmo-portfolio-visibility/</guid>
+      <description>&lt;h2 id=&#34;executive-context&#34;&gt;Executive Context&lt;/h2&gt;
+&lt;p&gt;Many organizations invest heavily in project management capabilities yet still struggle to answer a simple executive question:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“What is actually happening across our portfolio of initiatives?”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Despite sophisticated tools, reporting structures, and PMO processes, leadership teams often lack a clear view of delivery performance, investment alignment, and program risk.&lt;/p&gt;
+&lt;p&gt;The issue is rarely the absence of reporting. The issue is the absence of &lt;strong&gt;true portfolio visibility&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;In many organizations, portfolio reporting is built around project updates rather than enterprise decision-making.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;h2 id=&#34;glen-fullerton&#34;&gt;Glen Fullerton&lt;/h2&gt;
+&lt;p&gt;Director-Level PMO &amp;amp; Enterprise Program Leader&lt;/p&gt;
+&lt;p&gt;Governance • Portfolio Visibility • Delivery Transformation&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/Glen_Fullerton_Director_PMO_Resume_FINAL.pdf&#34;&gt;⬇ Download Resume (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;executive-impact-highlights&#34;&gt;Executive Impact Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Established and strengthened enterprise PMO governance frameworks&lt;/li&gt;
+&lt;li&gt;Improved portfolio visibility for executive leadership across complex initiatives&lt;/li&gt;
+&lt;li&gt;Modernized delivery systems using Azure DevOps governance and Power BI reporting&lt;/li&gt;
+&lt;li&gt;Led infrastructure and enterprise transformation programs in multi-team environments&lt;/li&gt;
+&lt;li&gt;Improved delivery discipline through governance, prioritization, and reporting structures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-this-resume-highlights&#34;&gt;What This Resume Highlights&lt;/h2&gt;
+&lt;p&gt;This resume is designed to reflect leadership experience in:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

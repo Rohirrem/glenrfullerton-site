@@ -1,0 +1,84 @@
+baseURL = "https://glenrfullerton.org/"
+languageCode = "en-us"
+title = "Glen Fullerton"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+
+[params.profileMode]
+enabled = false
+title = "Glen Fullerton"
+subtitle = "Enterprise Program & PMO Leader | Governance, Portfolio Visibility, and Delivery Transformation"
+imageURL = "/images/headshot/glen.jpg"
+imageWidth = 240
+imageHeight = 240
+[params.homeInfoParams]
+    Title = "Enterprise Program & PMO Leadership"
+    Content = "Helping organizations turn strategy into delivery through governance, portfolio discipline, and delivery transformation."
+ 
+
+[[params.profileMode.buttons]]
+name = "Portfolio"
+url = "/portfolio"
+
+[[params.profileMode.buttons]]
+name = "Leadership Approach"
+url = "/leadership-approach"
+
+[[params.profileMode.buttons]]
+name = "Articles"
+url = "/articles"
+
+[[params.profileMode.buttons]]
+name = "Resume"
+url = "/resume"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      [menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "leadership-approach"
+    name = "Leadership Approach"
+    url = "/leadership-approach/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/articles/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 60

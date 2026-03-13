@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Azure DevOps Governance and Enterprise Delivery Visibility | Glen Fullerton</title>
+<meta name="keywords" content="">
+<meta name="description" content="Organizational Context
+A large public sector technology organization was expanding its use of Azure DevOps as the primary platform for managing work across both application development and infrastructure teams.
+Although Azure DevOps provided powerful capabilities for backlog management, sprint planning, and work tracking, implementation practices varied widely across teams. Each group structured their boards, work items, and reporting differently, which made it difficult for leadership to understand delivery performance across the organization.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/portfolio/delivery-systems/azure-devops-governance/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.dddf759f10fe489769d435d98253b25be109dcc86f00a32166656c9ad0071a32.css" integrity="sha256-3d91nxD&#43;SJdp1DXZglOyW&#43;EJ3MhvAKMhZmVsmtAHGjI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/portfolio/delivery-systems/azure-devops-governance/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Glen Fullerton (Alt + H)">Glen Fullerton</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/portfolio/" title="Portfolio">
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/leadership-approach/" title="Leadership Approach">
+                    <span>Leadership Approach</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/portfolio/">Portfolio</a>&nbsp;»&nbsp;<a href="http://localhost:1313/portfolio/delivery-systems/">Delivery Systems</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Azure DevOps Governance and Enterprise Delivery Visibility
+    </h1>
+    <div class="post-meta"><span title='2026-03-06 00:00:00 +0000 UTC'>March 6, 2026</span>&nbsp;·&nbsp;<span>4 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="organizational-context">Organizational Context<a hidden class="anchor" aria-hidden="true" href="#organizational-context">#</a></h2>
+<p>A large public sector technology organization was expanding its use of Azure DevOps as the primary platform for managing work across both application development and infrastructure teams.</p>
+<p>Although Azure DevOps provided powerful capabilities for backlog management, sprint planning, and work tracking, implementation practices varied widely across teams. Each group structured their boards, work items, and reporting differently, which made it difficult for leadership to understand delivery performance across the organization.</p>
+<p>As adoption increased, leadership recognized that the tool alone would not provide enterprise insight without consistent governance and structured reporting.</p>
+<hr>
+<h2 id="strategic-challenge">Strategic Challenge<a hidden class="anchor" aria-hidden="true" href="#strategic-challenge">#</a></h2>
+<p>Executive leadership needed reliable visibility into enterprise technology delivery in order to manage priorities, staffing, and risk.</p>
+<p>However, several factors limited their ability to gain meaningful insight:</p>
+<ul>
+<li>inconsistent Azure DevOps work item structures across teams</li>
+<li>lack of standardized sprint cadence and iteration schedules</li>
+<li>fragmented reporting approaches across projects</li>
+<li>limited visibility into workload and capacity across teams</li>
+<li>difficulty aggregating delivery data for portfolio-level reporting</li>
+</ul>
+<p>Without consistent governance and reporting structures, leadership could not accurately assess delivery capacity, prioritize work effectively, or identify emerging risks across the portfolio.</p>
+<hr>
+<h2 id="leadership-role">Leadership Role<a hidden class="anchor" aria-hidden="true" href="#leadership-role">#</a></h2>
+<p>Supported the design and implementation of governance structures for Azure DevOps usage across the organization to improve delivery transparency and portfolio visibility.</p>
+<p>Key contributions included:</p>
+<ul>
+<li>helping establish standardized sprint cadence aligned with the fiscal year</li>
+<li>supporting governance models for work item structure and backlog management</li>
+<li>contributing to the development of capacity planning frameworks</li>
+<li>supporting the creation of enterprise delivery reporting through Power BI</li>
+</ul>
+<p>The goal was to ensure Azure DevOps functioned not only as a team-level project tool, but as a platform supporting enterprise delivery intelligence.</p>
+<hr>
+<h2 id="solution-framework">Solution Framework<a hidden class="anchor" aria-hidden="true" href="#solution-framework">#</a></h2>
+<p>The governance approach focused on introducing structure and consistency while allowing teams to maintain operational flexibility.</p>
+<h3 id="standardized-sprint-cadence">Standardized Sprint Cadence<a hidden class="anchor" aria-hidden="true" href="#standardized-sprint-cadence">#</a></h3>
+<p>A consistent sprint calendar was introduced to improve coordination across projects and teams.</p>
+<p>Key elements included:</p>
+<ul>
+<li>organization-wide two-week sprint cycles</li>
+<li>standardized sprint naming conventions aligned to the fiscal year</li>
+<li>improved coordination of planning activities across teams</li>
+</ul>
+<p>This allowed leadership and project teams to coordinate delivery timelines more effectively and improved comparability of delivery progress across initiatives.</p>
+<hr>
+<h3 id="delivery-data-standardization">Delivery Data Standardization<a hidden class="anchor" aria-hidden="true" href="#delivery-data-standardization">#</a></h3>
+<p>To improve reporting consistency, governance guidelines were introduced for how teams structured their Azure DevOps data.</p>
+<p>These guidelines included:</p>
+<ul>
+<li>consistent work item types and usage</li>
+<li>standardized backlog structures</li>
+<li>defined reporting expectations for delivery status</li>
+</ul>
+<p>These practices allowed delivery data to be aggregated and analyzed across projects.</p>
+<hr>
+<h3 id="capacity-planning-framework">Capacity Planning Framework<a hidden class="anchor" aria-hidden="true" href="#capacity-planning-framework">#</a></h3>
+<p>A capacity planning model was introduced to improve visibility into workload demand relative to available resources.</p>
+<p>This included:</p>
+<ul>
+<li>sprint-level capacity reporting</li>
+<li>visibility into team workload commitments</li>
+<li>improved understanding of delivery constraints</li>
+</ul>
+<p>These practices enabled leadership to make more realistic prioritization decisions and helped teams plan work more effectively.</p>
+<hr>
+<h3 id="enterprise-delivery-visibility-with-power-bi">Enterprise Delivery Visibility with Power BI<a hidden class="anchor" aria-hidden="true" href="#enterprise-delivery-visibility-with-power-bi">#</a></h3>
+<p>To translate Azure DevOps operational data into meaningful leadership insight, delivery data was integrated with Power BI dashboards.</p>
+<p>Power BI reporting provided leadership with real-time visibility into:</p>
+<ul>
+<li>portfolio workload and initiative progress</li>
+<li>sprint completion trends across teams</li>
+<li>resource capacity versus demand</li>
+<li>emerging delivery risks and bottlenecks</li>
+</ul>
+<p>These dashboards allowed leadership to move beyond anecdotal status updates and instead evaluate delivery performance using consistent operational metrics derived directly from Azure DevOps.</p>
+<p>By connecting Azure DevOps data with Power BI reporting, the organization gained a unified view of delivery activity across teams, programs, and portfolios.</p>
+<h2 id="delivery-visibility-architecture">Delivery Visibility Architecture<a hidden class="anchor" aria-hidden="true" href="#delivery-visibility-architecture">#</a></h2>
+<p><img alt="Azure DevOps to Power BI executive visibility flow" loading="lazy" src="/images/portfolio/azure-devops-powerbi-flow.svg">
+<em>Azure DevOps delivery data standardized for reporting and surfaced through Power BI dashboards for executive portfolio visibility.</em></p>
+<hr>
+<h2 id="business-impact">Business Impact<a hidden class="anchor" aria-hidden="true" href="#business-impact">#</a></h2>
+<p>The governance framework significantly improved delivery transparency across the organization.</p>
+<p>Key outcomes included:</p>
+<ul>
+<li>improved visibility into enterprise technology delivery workloads</li>
+<li>consistent sprint cadence across development and infrastructure teams</li>
+<li>executive dashboards providing portfolio-level delivery insight</li>
+<li>stronger alignment between project demand and available capacity</li>
+<li>improved ability for leadership to identify delivery risks early</li>
+</ul>
+<p>The integration of Azure DevOps operational data with Power BI reporting transformed delivery reporting from fragmented team updates into a structured enterprise delivery intelligence capability.</p>
+<hr>
+<h2 id="leadership-capabilities-demonstrated">Leadership Capabilities Demonstrated<a hidden class="anchor" aria-hidden="true" href="#leadership-capabilities-demonstrated">#</a></h2>
+<p>This initiative highlights several areas of enterprise delivery leadership:</p>
+<ul>
+<li>Delivery System Modernization</li>
+<li>Azure DevOps Governance Design</li>
+<li>Enterprise Capacity Planning</li>
+<li>Portfolio Visibility and Reporting</li>
+<li>Power BI Delivery Intelligence</li>
+<li>Cross-Team Delivery Coordination</li>
+</ul>
+<hr>
+<h2 id="executive-takeaway">Executive Takeaway<a hidden class="anchor" aria-hidden="true" href="#executive-takeaway">#</a></h2>
+<p>Modern delivery platforms such as Azure DevOps can only provide meaningful organizational insight when supported by consistent governance and structured reporting.</p>
+<p>By introducing sprint cadence standards, delivery data governance, capacity planning frameworks, and Power BI executive dashboards, the organization transformed Azure DevOps from a team-level work management tool into a platform supporting enterprise-level delivery visibility and informed leadership decision-making.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Glen Fullerton</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="site-cta-footer">
+  <div class="site-cta-inner">
+    <h3>Let’s Connect</h3>
+    <p>
+      If you’re looking for stronger PMO governance, clearer portfolio visibility,
+      or more disciplined delivery across complex initiatives, I’d be glad to connect.
+    </p>
+
+    <div class="site-cta-links">
+      <a href="/portfolio/">View Portfolio</a>
+      <a href="/resume/">Resume</a>
+      <a href="mailto:glen@glenrfullerton.org">Email</a>
+      <a href="https://linkedin.com/in/glenrfullerton">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Insights on Glen Fullerton</title>
+    <link>http://localhost:1313/articles/</link>
+    <description>Recent content in Insights on Glen Fullerton</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Enterprise PMO That Leadership Actually Uses</title>
+      <link>http://localhost:1313/articles/enterprise-pmo-design/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/enterprise-pmo-design/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will explore how to design enterprise PMO structures that improve governance, visibility, and executive decision-making without creating unnecessary bureaucracy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Hidden Risk in Azure DevOps Implementations</title>
+      <link>http://localhost:1313/articles/azure-devops-governance/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/azure-devops-governance/</guid>
+      <description>&lt;h2 id=&#34;executive-context&#34;&gt;Executive Context&lt;/h2&gt;
+&lt;p&gt;Over the past several years, Azure DevOps has become one of the most widely adopted delivery platforms in enterprise IT organizations.&lt;/p&gt;
+&lt;p&gt;It promises integrated planning, development tracking, and operational visibility across complex engineering environments. Yet in many organizations, the introduction of Azure DevOps does not actually improve delivery performance.&lt;/p&gt;
+&lt;p&gt;Instead, leadership teams often discover that they have &lt;strong&gt;more data, but less clarity.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The issue is rarely the tool itself.&lt;br&gt;
+The issue is that organizations implement Azure DevOps as a &lt;strong&gt;technology platform rather than a governed delivery system.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Missing Layer in Most Digital Transformation Programs</title>
+      <link>http://localhost:1313/articles/digital-transformation-governance/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/digital-transformation-governance/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will focus on the governance and delivery visibility layer that is often missing from digital transformation efforts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Delivery Systems Matter More Than Methodology</title>
+      <link>http://localhost:1313/articles/delivery-systems-vs-methodology/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/delivery-systems-vs-methodology/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will explain why delivery discipline, reporting structures, and operational visibility matter more than debates over methodology labels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Infrastructure Modernization Programs Fail</title>
+      <link>http://localhost:1313/articles/infrastructure-modernization-risk/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/infrastructure-modernization-risk/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+&lt;p&gt;This article will look at the most common governance, sequencing, and stakeholder alignment issues that cause infrastructure modernization programs to struggle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI in PMO Governance: From Reporting Tool to Strategic Control System</title>
+      <link>http://localhost:1313/articles/ai-in-pmo-governance/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/ai-in-pmo-governance/</guid>
+      <description>Artificial Intelligence is rapidly reshaping how PMOs provide governance, visibility, and decision support. When applied correctly, AI allows PMOs to move beyond reporting and become strategic control systems for executive decision-making.</description>
+    </item>
+    <item>
+      <title>Why Most PMOs Fail at Portfolio Visibility</title>
+      <link>http://localhost:1313/articles/pmo-portfolio-visibility/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/pmo-portfolio-visibility/</guid>
+      <description>&lt;h2 id=&#34;executive-context&#34;&gt;Executive Context&lt;/h2&gt;
+&lt;p&gt;Many organizations invest heavily in project management capabilities yet still struggle to answer a simple executive question:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“What is actually happening across our portfolio of initiatives?”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Despite sophisticated tools, reporting structures, and PMO processes, leadership teams often lack a clear view of delivery performance, investment alignment, and program risk.&lt;/p&gt;
+&lt;p&gt;The issue is rarely the absence of reporting. The issue is the absence of &lt;strong&gt;true portfolio visibility&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;In many organizations, portfolio reporting is built around project updates rather than enterprise decision-making.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
